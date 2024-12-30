@@ -1,0 +1,28 @@
+/* Contact */
+#contact {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+#contact button {
+    align-self: center;
+}
